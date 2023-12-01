@@ -47,6 +47,15 @@ body {
 
 }
 
+#video-content{
+    height: 480px; 
+    width: 640px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .content-box{
     margin-top:6%;
 }
@@ -54,6 +63,24 @@ body {
 .content {
     margin: 20px;
     padding: 20px;
+}
+
+.image-box{
+    width: 40%; 
+    margin: 0 auto; 
+}
+
+.image-box img{
+    width: 100%; 
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
 }
 
 h1 {
@@ -66,6 +93,10 @@ h1 {
 
 h2 {
     color: #0174BE;
+}
+
+#h2-right {
+    text-align-last: right !important;
 }
 
 h4 {
@@ -129,9 +160,12 @@ h4 {
     float: right;
 }
 
+
 .blog-text {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    width: 70%;
+    margin: 0 auto; 
 }
 
 ul{
